@@ -4,17 +4,18 @@ import "fmt"
 
 const (
 	siloVersion string = "0.0.1"
-	goVersion 
+	goVersion string = "0.0.1"
 )
 
 func main() {
 	fmt.Printf(`
-	_ _       
-	(_) |      
- ___ _| | ___  
-/ __| | |/ _ \ 
-\__ \ | | (_) |
-|___/_|_|\___/ v%s, built with Go for Gophers %s
+_______  ___   ___      _______ 
+|       ||   | |   |    |       |
+|  _____||   | |   |    |   _   |
+| |_____ |   | |   |    |  | |  |
+|_____  ||   | |   |___ |  |_|  |
+ _____| ||   | |       ||       |
+|_______||___| |_______||_______| %s, built with Go %s for Gophers 💕
 
-`, )
+`, siloVersion, goVersion)
 }
