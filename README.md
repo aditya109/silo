@@ -1,2 +1,2 @@
-# theodora
+# silo
 A Golang application generator
